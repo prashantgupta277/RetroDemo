@@ -1,0 +1,157 @@
+.data-main-container{
+    background-color: #fff;
+    
+    min-height:50px;
+}
+.user-data-table table tr td{
+    text-align: left;
+}
+.user-data-table table tr th:first-child,.user-data-table table tr td:first-child{
+    width:20%;
+}
+.user-data-table table tr th:nth-child(2),.user-data-table table tr td:nth-child(2){
+    width:35%;
+}
+
+#allTemplates .btn{
+    color: #fff;
+    font-size: 14px;
+}
+#allTemplates .dropdown-menu{
+    min-width: 5rem;
+}   
+#allTemplates table tbody tr:hover {
+    background-color: #EBF1FE;
+}
+
+#allTemplates .user-data-table{
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y:auto;
+}
+
+.blueColorDark{
+    color:#133A62;
+}
+.fontBold{
+    font-weight: bold;
+}
+
+#allTemplates .pagination {
+    justify-content: center;
+ }
+.body-content.newBg{
+    background-color: #f7f7f7 !important;
+    background-image: url('./img/bgImg_Small.png') !important;
+    background-size: 100% 100% !important
+}
+
+#allTemplates.table td,#allTemplates .table th{border: none;}
+
+#allTemplates .table thead tr th{
+    text-align: left;
+    font-weight: 300;
+}
+#allTemplates .table tbody tr td ul{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0;
+    padding: 0;
+}
+
+#allTemplates .table > thead > tr > th, #allTemplates .table > tbody > tr > th,#allTemplates .table > tfoot > tr > th,#allTemplates .table > thead > tr > td,#allTemplates .table > tbody > tr > td,#allTemplates .table > tfoot > tr > td{border: none;}
+
+@media only screen and (max-width: 768px) { 
+    .body-content.newBg{
+        background-image:none !important;
+    }
+}
+.handpointer{
+    cursor: pointer;
+}
+#templates-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url(./img/bgImg_Small.png) !important;
+    background-size: cover;
+    z-index: 50;
+    background-color: #f7f7f7 !important;
+}
+.add-custom-templates-btn {
+    background-color: #3b75fa;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+}
+.add-custom-templates-btn i {
+    margin-right: 15px;
+}
+.templates-data-table {
+    margin-top: 15px;
+}
+.templates-data-table table {
+    margin-bottom: 25px;
+}
+
+.user-templates-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(./img/orange-shape.svg) , url(./img/green-shape.svg);
+    z-index: 50;
+    background-position-y: -2480px,-665px;
+    background-position-x: -2100px,1110px;
+    background-color: #f7f7f7;
+}
+.user-templates-page-wrapper > .container-fluid:after {
+    content: '';
+    height: 350px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    /* background-image: url(./img/RetroSummary_BG.png); */
+    background-image: url(./img/blue-shape.svg);
+    z-index: -1;
+    background-position-y: -110px;
+    background-position-x: -2010px;
+    background-repeat: no-repeat;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.user-template-page-data-table table thead tr th {
+    color: #666;
+    font-weight: 400 !important;
+}
+.user-template-page-data-table table thead tr th.fw-600 {
+    font-weight: 600 !important;
+}
+.user-template-page-data-table table tbody tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.customeModal{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -40px;
+    background: #eee;
+    color: #000;
+    text-align: center;
+}
+
+.closebutton{
+    background: transparent !important;
+    border: none!important;
+    color: #000!important;
+    font-size: 44px !important;
+    padding: 0px !important;
+    margin-right: 10px;
+    margin-top: -30px !important;
+}

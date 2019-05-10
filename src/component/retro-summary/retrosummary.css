@@ -1,0 +1,471 @@
+.clearfix::after{display:block;clear:both;content:""}
+
+/* Header */
+
+#retrosummary-page-wrapper .user_name span {
+    font-weight: 900;
+}
+
+
+/* BreadCrumb */
+
+#retrosummary-page-wrapper #bread-crumb li a {
+    font-weight: 600;
+}
+
+#retrosummary-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url("./img/orange-shape.svg") !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2050px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#retrosummary-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg');
+    background-position-x: -1230px;
+    background-position-y: -600px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 1500px) {
+    #retrosummary-page-wrapper {
+        background-position-x: -2000px !important;
+    }
+    #retrosummary-page-wrapper > .container-fluid {
+        background-position-x: -1030px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #retrosummary-page-wrapper > .container-fluid {
+        background-position-x: -830px;
+    }
+}
+
+
+/* Start Retro Summary */
+
+#retrosummary-page-wrapper .summary {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #133A62;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.strip {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+
+.lecet {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.sprint {
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.date {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.margin{
+    margin-bottom: 50px;
+}
+
+.minit {
+    font-size: 16px;
+    color: #000000;
+    margin-right: 20px;
+}
+.pad{
+    padding-left: 0px;
+}
+.pad1{
+    padding-right: 0px;
+}
+
+
+
+.strip1 {
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 15px;
+    min-height: 600px;
+    padding-left: 15px;
+}
+
+.top {
+    padding: 25px;
+    width: 100%;
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+}
+
+.ofvotes {
+    float: left;
+    font-size: 14px;
+    color: #8b898a;
+    width: 15%;
+    text-align: center;
+}
+
+.group {
+    float: left;
+    font-size: 14px;
+    color: #8b898a;
+    width: 75%;
+    padding-left: 7%;
+}
+
+.five {
+    float: left;
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+    margin-left: 55px;
+    margin-top: 15px;
+    width: 17%;
+}
+
+
+.what {
+    float: left;
+    font-size: 14px;
+    color: #0066ff;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.this {
+    float: left;
+    width: 80%;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 180px;
+}
+
+.strip2 {
+    width: 100%;
+    background-color: #ff6633;
+    text-align: center;
+    padding: 13px 0px;
+}
+
+.show a {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.col {
+    /* width: 20%; */
+}
+
+.strip3 {
+    width: 100%;
+    background-color: #ffffff;
+    height: 260px;
+    margin-top: 15px;
+    padding: 30px 20px;
+}
+
+
+.ateen {
+    text-align: left;
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+    background-image: url(./img/attendees_icon.jpg);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    padding-left: 41px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+}
+
+.ateen span {
+    float: right;
+    padding-right: 15px;
+
+}
+
+.a {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: #c65118;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    position: absolute;
+    left: 15px;
+    margin-top: 3px;
+}
+
+.bob {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bob span {
+    font-weight: normal;
+    color: #000000;
+}
+
+.attendees-list {
+    padding: 0 15px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-right: 50px;
+    
+}
+
+.attendees-list .bob {
+    padding-left: 25px;
+}
+
+.strip4 {
+    width: 100%;
+    background-color: #ffffff;
+    height: 585px;
+    margin-top: 25px;
+    padding: 30px 20px;
+}
+
+.note {
+    float: left;
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.note1 {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    height: 100%;
+    overflow-y: auto;
+    clear: left;
+    padding-right: 15px;
+}
+
+.fotar{
+    background-color: #133A62;
+   
+    margin-top: 25px;
+}
+.feedback{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 18px 0px;
+}
+.send-email,
+.downpdf {
+    padding: 10px 15px;
+    min-width: 165px;
+    border-radius: 2px;
+    text-align: center; 
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+}
+.send-email {
+    background-color: #0066ff;
+}
+.downpdf {
+    background-color: #89e471;
+    margin-left: 15px;
+}
+
+#retro-summary-feedback-popup > div .modal-content {
+    background-image: url('./img/popup-image.png');
+    background-size: content-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+    padding: 15px;
+}
+
+#retro-summary-feedback-popup .modal-header {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+#retro-summary-feedback-popup .modal-header button {
+    display: block;
+    color: #ff6633 !important;
+}
+
+#retro-summary-feedback-popup .modal-body {
+    text-align: center;
+    color: #fff;
+}
+
+#retro-summary-feedback-popup .modal-body h3 {
+    color: inherit;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+#retro-summary-feedback-popup .modal-body p{
+    max-width: 315px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#retro-summary-feedback-popup .modal-footer {
+    border-top: none;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+#retro-summary-feedback-popup .modal-footer button {
+    margin-bottom: 0;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 4px;
+    height: auto;
+    min-width: 185px;
+    line-height: normal;
+    padding: 15px 35px;
+    text-align: center;
+    font-weight: 700;
+}
+#retro-summary-feedback-popup .modal-footer button.not-now-btn {
+    background-color: #3b75fa;
+}
+#retro-summary-feedback-popup .modal-footer button.take-survey-btn{ 
+    background-color: #f9843f !important;
+}
+
+#retro-summary-feedback-popup .dont-ask-link {
+    color: #8b898a;
+    text-decoration: underline;
+    font-weight: normal;
+    margin-bottom: 15px;
+    /* margin-top: 10px; */
+}
+.top-voted-thoughts {
+
+}
+
+.modal-backdrop.fade.show {
+    display: none;
+}
+.top-voted-thoughts {
+    margin-top: 10px;
+}
+.top-voted-thoughts-left {
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+.top-voted-thoughts-right {
+    float: left;
+    background-image: url('./img/ero.png');
+    background-position: 15px 6px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    width: 85%;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 7%;
+}
+
+.top-voted-thoughts-right-title {
+    color: #0066ff;
+    font-weight: 600;
+}
+.top-voted-thoughts-right-text {
+    line-height: 21px;
+}
+.top-voted-thoughts-content {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: none;
+}
+.top-voted-thoughts-content-top:hover {
+    cursor: pointer;
+}
+.show-top-voted-thoughts-content .top-voted-thoughts-content {
+    display: block;
+}
+.top-voted-thoughts-content p {
+    margin-bottom: 5px;
+    color: #333;
+}
+.show_more_retrosummary {
+    background-color: #f9843f;
+    padding: 5px; 
+}
+.show_more_retrosummary .show a {
+    color: #fff !important;
+    font-weight: normal;
+}
+.retro-summary-feedback-popup-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+}
+
+#retro-summary-feedback-popup.show {
+    background-color: rgba(255,255,255,0.75);
+}
+
+.subThought{
+    padding: 11px;
+    background-color: #EBF1FE;
+    padding-left: 22px;
+    margin-top: 3px;
+}
+.handpointer{
+    cursor: pointer;
+}
+/* End Retro Summary */

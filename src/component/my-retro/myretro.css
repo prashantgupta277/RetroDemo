@@ -1,0 +1,312 @@
+.menu li a.active{ color: #ff7e12 !important; font-weight: 600;}
+ul,ol{list-style: none;}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+#myretro li{
+ 
+  text-align: left;
+}
+
+#myretro .cust-bg::before{
+    content: "";
+    background: url(./img/orange-shape.svg);
+    position: absolute;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-position-x:-2005px;
+    background-position-y:-2420px;
+    min-height: 800px;
+    z-index: 0;
+}
+
+#myretro .create-retro::before{
+    content: "";
+    background: url(./img/green-shape.svg);
+    position: absolute;
+    width: 500px;
+    background-repeat: no-repeat;
+    min-height: 1675px;
+    z-index: 0;
+    top: -497px;
+    right: -168px;
+}
+
+#myretro .create-retro::after{
+  content: "";
+  background: url(./img/blue-shape.svg);
+  position: absolute;
+  transform: rotate(1deg);
+  width: 3587px;
+  background-repeat: no-repeat;
+  min-height: 560px;
+  z-index: 0;
+  top: 580px;
+  left: -2005px;
+  overflow: hidden;
+  background-size: inherit;
+}
+
+
+
+#myretro ul.menu li a{height: auto !important; position: relative; z-index: 999;}
+
+#myretro{background: #f7f7f7;}
+#myretro input{margin-bottom: 0;}
+
+#myretro .menu li a.active{ color: #ff7e12 !important; font-weight: 600;}
+#myretro nav {background: rgba(255, 255, 255, 0.8) !important; -webkit-backface-visibility: hidden;max-width: 100%; position: relative;}
+#myretro .nav-bar {height: 83px; max-height: 83px;line-height: 83px;}
+#myretro .module {display: inline-block; padding: 0 32px;}
+#myretro .module.left, #myretro .module-group.left {float: left;}
+#myretro .nav-bar .module, #myretro .nav-bar .module-group {height: 55px;}
+#myretro .nav-bar a {display: inline-block; height: 55px;}
+#myretro .logo {max-height: 60%;}
+#myretro .pull-right {float: right !important;}
+#myretro .menu > li ul{background: #133A62 !important; border-radius: 5px; margin-top: -20px;}
+#myretro .language .menu > li ul{min-width: 210px !important;}
+#myretro .language .menu li a{font-size: 15px; cursor: pointer;}
+#myretro .language .menu > li > ul > li{text-align: right;}
+#myretro .language .menu > li a:hover{color: #9cafc1 !important;}
+
+#myretro .mb-130 {margin-bottom: 130px; position: relative; z-index: 1;}
+#myretro .page-title {text-align: center; margin: 0 0 45px 0; padding: 0;}
+#myretro .page-title h2 {color: #133A62;text-transform: capitalize !important;font-size: 30px;font-weight: 600;}
+#myretro .box-1 {
+    background: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#myretro .box-1 h1 {
+    color: #6CD451;
+    font-weight: 700;
+    margin: 0;
+}
+#myretro .box-1 span {
+    color: #2a3744;
+    font-weight: 700;
+    font-size: 16px;
+}
+#myretro .all-retro {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+#myretro .all-retro {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+#myretro .cust-pt {
+    padding-top: 20px;
+}
+#myretro .all-retro h4 {
+    color: #133A62;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+#myretro select.cust{background: none; border-bottom: 1px solid #000; padding-left: 30px !important; color: #133A62; font-size: 16px; text-transform: capitalize; height: 35px !important; margin: 0 !important; border-top: none; border-right: none; border-left: none; border-radius: 0;}
+#myretro select.minimal {
+      background-image: url('./img/ddl-arrow-right.svg');
+      background-position: 0;
+      background-position-x: 0px;
+      background-position-x: 5px;
+      background-size: 17px 17px;
+      background-repeat: no-repeat;
+      padding-left: 4px;
+}
+#myretro select:active, #myretro select:focus, #myretro select:hover{outline: none; border-bottom: 1px solid #000 !important;}
+#myretro .check-user{ float: right; margin-bottom: 0 !important;}
+#myretro .cust-pt{padding-top: 20px;}
+#myretro .user-data{background: #fff; /*padding: 10px;*/ margin-top: 10px;}
+#myretro .user-data table i{font-size: 17px; color: #3B75FA;}
+#myretro .cust-field{color: #252525;}
+#myretro .upcoming{background: #ffdac4; text-align: center;}
+#myretro .upcoming-list{background: #fff2ea;}
+#myretro .upcoming-list td > a,
+#myretro .upcoming-list td > button a {
+  color: #fff !important;
+  border-radius: 4px !important;
+  padding: 2px 10px;
+}
+#myretro .table thead th, #myretro .table tbody td{
+  text-align: left !important;
+}
+#myretro .table tbody tr.withHover:hover{
+  background: #ffdac4;
+}
+
+#myretro .table thead th:first-child, #myretro .table tbody td:first-child{
+  width:200px;
+}
+#myretro .table thead th:nth-child(3), #myretro .table tbody td:nth-child(3){
+  width:30%
+}
+#myretro .table tbody tr.upcoming td:first-child {
+  width: 100%;
+  text-align: center !important;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#myretro .upcoming-list td > button {
+  /* background: transparent;
+  padding: 0 !important; */
+}
+/* #myretro .upcoming-list td a,
+#myretro .upcoming-list td button {
+  pointer-events: none;
+}  */
+
+/* #myretro .upcoming-list td button {
+  display: none;
+} */
+
+
+#myretro .action-list{background: #ebf1fe;}
+#myretro table button{margin: 0; background: #3b75fa; border: none; color: #fff; padding: 2px 15px !important;}
+#myretro .open > .dropdown-menu{display: grid;}
+#myretro .user-data nav{text-align: center;}
+#myretro .pagination li a{margin: 0; color: #3B75FA;}
+#myretro .pagination > li > a, .pagination > li > span{border: none;}
+#myretro .dropdown-menu a{color: #133A62; padding-left: 10px;}
+#myretro .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{border: none;}
+
+#myretro input[type="checkbox"]{visibility: hidden;}
+.check-user label{font-weight: 600; padding-left: 20px;}
+#myretro .styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+#myretro .styled-checkbox + label:before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: white;
+}
+#myretro .styled-checkbox:hover + label:before {
+  background: #f35429;
+}
+#myretro .styled-checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+#myretro .styled-checkbox:checked + label:before {
+  background: #ff7e12;
+}
+#myretro .styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+#myretro .styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+#myretro .styled-checkbox:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 12px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  transform: rotate(45deg);
+}
+
+
+#myretro input[type="checkbox"] + label:before {
+    border: 1px solid #F88440;
+    content: "\A0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+    margin-top: 5px;
+    margin-right: 13px;
+}
+.cust-field span{cursor: pointer;}
+.footer2{background: #133A62; padding: 40px 0; margin-top: 50px; position: relative;}
+.footer2 h1{color: #6CD351; font-size: 31px; font-weight: 700; margin: 0;}
+.footer2 p{color: #fff; font-size: 18px; font-weight: 400; margin: 0; line-height: 26px;}
+.footer2 span{color: #b8c4d0; font-size: 14px; font-weight: 400; margin: 0; padding-top: 20px;}
+.footer2 ul{margin: 0;}
+.footer2 ul li{ display: inline-block; padding: 15px 25px 5px 0;}
+.footer2 li a{color: #8F98A2; font-size: 16px; font-weight: 700;}
+.footer2 li a:hover{color: #fff; font-size: 16px; font-weight: 700;}
+.footer2 .footer-intro{color: #DADADA;}
+.footer2 .footer-intro img{float: left; padding-right: 20px;}
+.footer2 .footer-intro .intro-text{float: left;}
+.footer2 .footer-intro h4{color: #DADADA; font-size: 20px; text-transform: capitalize; margin: 0; font-weight: 400;}
+.footer2 .footer-intro p{margin: 0; padding: 0;}
+.footer2 .copyright{color: #8F98A2; text-align: right; padding-top: 5px;}
+.footer2 .copyright p{margin: 0;}
+.footer2 .copyright a{color: #8F98A2; text-decoration: underline;}
+.footer2 .copyright a:hover{color: #fff; text-decoration: underline;}
+
+
+.text_center{
+  text-align: center !important;
+}
+
+.createRetro {
+  background-color: #f88440;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 4px;
+  margin: 0;
+  font-weight: 700;
+  border: 1px solid #f88440;
+  cursor: pointer;
+}
+
+#myretro .myretro-inner-bg {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(./img/orange-shape.svg) , url(./img/green-shape.svg) ;
+    z-index: 50;
+    background-position-y: -2480px,-665px;
+    background-position-x: -2100px,1110px ;
+    background-color: #f7f7f7;
+}
+#myretro .myretro-inner-bg:after {
+  content: '';
+  height: 350px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  /* background-image: url(./img/RetroSummary_BG.png) ; */
+  background-image: url(./img/blue-shape.svg);
+  z-index: -1;
+  background-position-y: -110px;
+  background-position-x: -2010px;
+  background-repeat: no-repeat;
+}
+.icon-button{
+ background: transparent !important;
+}
+
+#myretro .user-data table i:hover {
+  color: #ff7e12 !important;
+}

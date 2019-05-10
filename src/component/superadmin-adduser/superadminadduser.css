@@ -1,0 +1,79 @@
+#superadminadduser-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url('./img/orange-shape.svg') !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2100px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#superadminadduser-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: 1110px, center;
+    background-position-y: -655px, bottom;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+#superadminadduser-page-wrapper .form-box-header,
+#superadminedituser-page-wrapper .form-box-header {
+    margin-bottom: 35px;
+}
+#superadminadduser-page-wrapper .account-details-box .form-box .form-box-body,
+#superadminedituser-page-wrapper .account-details-box .form-box .form-box-body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#superadminadduser-page-wrapper .form-feild-box,
+#superadminedituser-page-wrapper .form-feild-box {
+    margin-bottom: 35px;
+}
+#superadminadduser-page-wrapper .mail,
+#superadminedituser-page-wrapper .mail {
+    text-align: right;
+    color: #878787;
+}
+#superadminadduser-page-wrapper .form-phonenumber-feild-box,
+#superadminedituser-page-wrapper .form-phonenumber-feild-box {
+    width: 65%;
+    margin-bottom: 0;
+}
+#superadminadduser-page-wrapper .account-type-dropdown,
+#superadminedituser-page-wrapper .account-type-dropdown {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 125px);
+}
+#superadminadduser-page-wrapper .account-type-dropdown .dropdown button,
+#superadminedituser-page-wrapper .account-type-dropdown .dropdown button {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #133a62;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px solid #f88440;
+    background-image: url(./img/ddl-arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+    text-indent: 10px;
+    text-align: left !important;
+    border-radius: 0 !important;
+}
+#superadminadduser-page-wrapper .account-type-dropdown .dropdown .dropdown-menu,
+#superadminedituser-page-wrapper .account-type-dropdown .dropdown .dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+}
+#superadminadduser-page-wrapper .account-type-dropdown .dropdown .dropdown-menu .dropdown-item,
+#superadminedituser-page-wrapper .account-type-dropdown .dropdown .dropdown-menu .dropdown-item {
+    text-align: left !important;
+}
+#superadminadduser-page-wrapper .ra,
+#superadminedituser-page-wrapper .ra {
+    padding-left: 125px;
+    color: #878787;
+}

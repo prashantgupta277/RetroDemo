@@ -1,0 +1,101 @@
+#superadmintemplates-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url("./img/orange-shape.svg") !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2050px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#superadmintemplates-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: 1110px, center;
+    background-position-y: -655px, bottom;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1500px) {
+    #superadmintemplates-page-wrapper {
+        background-position-x: -2000px !important;
+    }
+    #superadmintemplates-page-wrapper > .container-fluid {
+        background-position-x: -1030px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #superadmintemplates-page-wrapper > .container-fluid {
+        background-position-x: -830px;
+    }
+}
+
+.blue-btn {
+    background-color: #3b75fa;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #3b75fa;
+}
+.blue-btn i {
+    margin-right: 15px;
+}
+.blue-btn:hover {
+    background-color: #fff;
+    color: #3b75fa;
+}
+.company-templates-head {
+    margin-bottom: 15px;
+}
+.company-templates-head h4 {
+    font-size: 18px;
+    color: #133a62;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.actions-dropdown-orange .dropdown button {
+    background-color: #f88440;
+}
+.company-templates-orange table tbody tr:hover {
+    background-color: #fff6f0;
+}
+.pb-50px {
+    padding-bottom: 50px;
+}
+
+.company-templates {
+    max-width: 1260px;
+    padding: 25px;
+    margin: 25px auto 0;
+}
+
+.company-templates-foot .pagination {
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.customeModal{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -40px;
+    background: #eee;
+    color: #000;
+    text-align: center;
+}
+
+.closebutton{
+    background: transparent !important;
+    border: none!important;
+    color: #000!important;
+    font-size: 44px !important;
+    padding: 0px !important;
+    margin-right: 10px;
+    margin-top: -30px !important;
+}

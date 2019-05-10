@@ -1,0 +1,60 @@
+.btnTop_Holder{
+    text-align: right; 
+    padding-top:30px;   
+}
+.flexAlignMiddle{
+    align-items: center;
+}
+.alignSelfFlexEnd{
+    align-self: flex-end;
+}
+.headingSandC{
+    color: #133A62;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom:10px;
+}
+.btnFix{
+    min-height: 47px;
+    box-sizing: border-box;
+}
+.dBlock{
+    display: block;
+}
+.w60{
+    width:60% !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+.mb-10{
+    margin-bottom: 10px !important;
+}
+.pr-0{
+   padding-right:0 !important;
+}
+.ml-Minus15{
+    margin-left: -15px !important
+}
+.m-p-10{
+    padding: 10px;
+    margin: 10px;
+}
+.containerSeperator{
+    border: 1px solid #fff;
+}
+.btnTop_Holder .btn{
+    color:#fff !important;
+    background-color: rgba(68, 121, 246, 0.6);
+   
+}
+.add-email .table input[type="checkbox"]:checked + label:before,.add-email .table input[type="checkbox"] + label:before{
+    display: none;
+}
+.invite-list .add-email{
+    min-height: 283px;
+}
+

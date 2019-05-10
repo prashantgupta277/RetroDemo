@@ -1,0 +1,602 @@
+#billing-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url("./img/orange-shape.svg") !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2050px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#billing-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg');
+    background-position-x: -1230px;
+    background-position-y: -600px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 1500px) {
+    #billing-page-wrapper {
+        background-position-x: -2000px !important;
+    }
+    #billing-page-wrapper > .container-fluid {
+        background-position-x: -1030px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #billing-page-wrapper > .container-fluid {
+        background-position-x: -830px;
+    }
+}
+
+
+/* Start account information */
+
+.stripa{
+    width: 100%; 
+    background-color: #fff;
+    height: 700px; 
+    margin-top: 50px; 
+    padding-top: 20px;
+}
+.company{
+    width: 100%;
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.stripb{
+       width: 100%;
+       background-color: #133A62;
+       height: 50px;
+       margin-top: 20px;
+}
+.account{
+         text-align: center;
+         color: #fff;
+         font-size: 16px;
+         font-weight: 700;
+         padding-top: 15px;
+}
+.user1{
+    font-size: 16px;
+    color: #133A62;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.projects{
+    font-size: 16px;
+    color: #133A62;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.biling{
+    font-size: 16px;
+    color: #133A62;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 500;
+    background-image: url('./img/info_icon.png');
+    background-repeat: no-repeat;
+    background-position: 90% calc(100% - 4px);
+    background-size: 16px;
+    padding-right: 35px;
+}
+
+
+.stripd{
+    width: 100%; 
+    background-color: #fff; 
+    height: 130px; 
+    /* margin-top: 50px;  */
+    padding-top: 20px;
+}
+
+.stripe{
+    width: 100%; 
+    background-color: #fff; 
+    height: 130px; 
+    /* margin-top: 50px;  */
+    padding-top: 20px;
+}
+.stripc{
+    width: 100%; 
+    background-color: #fff; 
+    height: 130px; 
+    /* margin-top: 50px;  */
+    padding-top: 20px;
+}
+.user2{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #000;
+}
+.count{
+    text-align: center; 
+    font-size: 36px;
+    color: #0066ff;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.count span{
+    font-size: 16px;
+    color: #000;
+}
+.user3{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;    
+}
+.user3{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.stripf{
+    background-color: #fff;
+    /* height: 375px; */
+    margin-top: 15px;
+    padding: 0 0 35px 50px;
+}
+.acdetal{
+    font-size: 18px;
+    color: #133A62;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 700;
+}
+.comname{
+    font-size: 12px;
+    color: #000;
+    padding-top: 25px;
+    padding-left: 150px;
+}
+.comname span{
+font-size: 14px;
+color: #133a62;
+padding-left: 10px;
+}
+
+
+.comname1{
+    font-size: 12px;
+    color: #000;
+    padding-top: 25px;
+    padding-left: 150px;
+}
+.box{
+    background-color:#e0dede;
+height: 40px;
+width: 500px; 
+}
+.comname1 span{
+font-size: 14px;
+color: #133a62;
+padding-left: 20px;
+
+}
+.comname2{
+    font-size: 12px;
+    color: #000;
+    padding-top: 25px;
+    padding-left: 150px;
+}
+.comname2 span{
+font-size: 14px;
+color: #133a62;
+padding-left: 20px;
+}
+
+
+/* End account information */
+
+
+
+
+/* Start user page */
+
+.user11{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.account1{
+font-size: 16px;
+color: #133A62;
+padding-top: 20px;
+padding-left: 50px;
+font-weight: 500;
+}
+.count1{
+    text-align: center; 
+    font-size: 36px;
+    color: #ff7e12;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.user4{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;    
+}
+.stripg{
+    width: 100%; 
+    background-color: #fff; 
+    height: 130px; 
+    margin-top: 50px; 
+    padding-top: 20px;
+}
+
+.box392{
+    font-size: 12 px;
+    background-color:#0066ff;
+    font-weight: 600;
+    color: #fff;
+    padding: 2px;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.acuser{
+font-size: 18px;
+color: #133A62;
+font-weight: 700;
+}
+.t32{
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+.radmin{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+.upgrade{
+    font-size: 14px;
+    color: #ff7e12;
+    
+}
+.hide{
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}
+.hide input{
+    margin-bottom: 10px;
+}
+
+.tab .table thead th {
+    border: none;
+}
+.tab .table th{
+    border: none;    
+}
+.tab .table td{
+    border: none;
+}
+.nav-link{
+    padding: 0;
+}
+.pagination .page-link{
+    border: none;
+}
+.pagination nav{
+    margin: 0 auto;
+}
+.stripaa{
+    padding-left: 0;
+}
+.stripcc{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.striphh{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+
+/* End user page */
+
+
+
+/* start billing page */
+.useraa3 span{
+    font-size: 14px;
+    color: #d0021b;
+    font-weight: 700;
+
+}
+.useraa3{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.useraa3 .info_icon {
+    max-width: 16px;
+}
+.due{
+    background-color: #d0021b;
+    height: 40px;
+    width: 280px;
+    margin-bottom: 2px;
+}
+.cardfailed{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+.cardfailed .info_icon_white{
+    max-width: 20px;
+}
+.plan{
+    font-size: 16px;
+    color: #000;
+    margin-top: 30px;
+    font-weight: 700;
+    width: 100%;
+}
+.acdetalbilling{
+    font-size: 18px;
+    color: #133A62;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.enterprise{
+    font-size: 14px;
+    color: #133A62;
+    /* margin-left: 16px; */
+    font-weight: 500;
+    margin-top: 16px;
+    
+}
+.enterprise .ero{
+    max-width: 16px;
+}
+.enterline{
+    width: 85%;
+    align-content: center;
+    height: 1px;
+    background-color: #133A62;
+}
+.graybox{
+    background-color: #eff3f7;
+    width: 90%;
+    height: 90px;
+    margin-top: 10px;
+}
+.whats{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+.retrohundred{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 20px;
+}
+.promocode{
+        font-size: 16px;
+        color: #000;
+        margin-top: 40px;
+        font-weight: 700;
+        width: 100%;
+}
+.activepromocode{
+        font-size: 14px;
+        color: #133a62;
+        margin-top: 5px;
+}
+.activepromocode span{
+    font-size: 14px;
+    color: #133a62;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.activepromocode a{
+    font-size: 14px;
+    color:#0066ff;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.fifmonth{
+    font-size: 14px;
+    color: #939596;
+}
+.payment{
+    font-size: 16px;
+    color: #000;
+    margin-top: 75px;
+    font-weight: 700;
+    width: 100%;
+}
+.visa{
+    font-size: 14px;
+    color: #000;
+    margin-top: 16px;
+}
+.visa a{
+    color: #0066ff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 75px;
+}
+.biliingcontact{
+    font-size: 16px;
+    color: #000;
+    margin-top: 25px;
+    font-weight: 700;
+    width: 100%;
+}
+.graybox1{
+    background-color: #eff3f7;
+    width: 100%;
+    max-width: 250px;
+    height: 40px;
+    margin-top: 5px;
+}
+.boblaw{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding-left: 25px;
+    padding-top: 8px;
+}
+.boblaw .ero{
+    max-width: 18px;
+}
+.stripf1{
+    background-color: #fff;
+    height: 375px;
+    margin-top: 25px;
+    padding-left: 50px;
+}
+.invoice-history {
+    padding: 35px;
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.invoice-history .table td {
+    border-top: none;
+    padding: .25rem .75rem;
+}
+.invoice{
+    color: #133A62;
+    font-size: 18px;
+    font-weight: 700;
+}
+.billing2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 50px;
+     background-image: url('./img/info_icon.png');
+     background-repeat: no-repeat;
+     background-position: 90% calc(100% - 4px);
+     background-size: 16px;
+     padding-right: 35px;
+}
+.account2{
+    font-size: 16px;
+    color: #133A62;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 500;
+}
+.stripaa{
+    padding-left: 0px;
+}
+.stripcc{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.select-plan-dropdown .dropdown.show {
+    padding-top: 0;
+}
+.select-plan-dropdown .dropdown button,
+.select-plan-dropdown .dropdown-menu {
+    width: 100%;
+    max-width: 85%;
+    text-align: left;
+}
+.select-plan-dropdown .dropdown button {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    color: #133A62 !important;
+    border: none;
+    border-bottom: 1px solid #133A62;
+    display: block;
+    background-image: url('./img/ddl-arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 16px;
+    font-size: 14px;
+    text-indent: 3px;
+    transition: none;
+}
+
+.select-plan-dropdown .dropdown.show button {
+    background-image: url('./img/ddl-arrow-down.svg');
+    background-size: 9px;
+}
+
+.select-plan-dropdown .dropdown.show .dropdown-menu {
+    border-radius: 0;
+}
+.select-plan-dropdown .dropdown.show .dropdown-menu .dropdown-item {
+    color: #133A62 !important;
+    text-align: left;
+    font-weight: 400;
+}
+
+.text-red {
+    color: #d0021b;
+}
+.download-icon {
+    max-width: 21px;
+}
+.add-card {
+    display: block;
+    background: #f88440;
+    color: #fff;
+    width: 200px;
+    margin: 5px 0;
+    padding: 5px 0;
+    text-align:center;
+    border: 1px solid #f88440;
+}
+.add-card:hover {
+    color: #f88440;
+    background: #fff;
+}
+
+.bdr-none {
+    border: none !important;
+}
+.width-100 {
+    width: 100% !important;
+}
+.max-width-125px {
+    max-width: 125px !important;
+}

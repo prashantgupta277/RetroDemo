@@ -1,0 +1,382 @@
+#superadminbilling-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url("./img/orange-shape.svg") !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2050px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#superadminbilling-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg');
+    background-position-x: -1230px;
+    background-position-y: -600px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 1500px) {
+    #superadminbilling-page-wrapper {
+        background-position-x: -2000px !important;
+    }
+    #superadminbilling-page-wrapper > .container-fluid {
+        background-position-x: -1030px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #superadminbilling-page-wrapper > .container-fluid {
+        background-position-x: -830px;
+    }
+}
+#superadminbilling-page-wrapper .stripc,
+#superadminbilling-page-wrapper .stripd,
+#superadminbilling-page-wrapper .stripe,
+#superadminbilling-page-wrapper .stripf {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#superadminbilling-page-wrapper .user2 {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  color: #133a62;
+}
+#superadminbilling-page-wrapper .count {
+  text-align: center;
+  font-size: 36px;
+  color: #06f;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+#superadminbilling-page-wrapper .count span {
+  font-size: 16px;
+  color: #133a62;
+  font-weight: normal;
+}
+#superadminbilling-page-wrapper .user3 {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  color: #1b2937;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+#superadminbilling-page-wrapper .useraa3 {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  color: #1b2937;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+#superadminbilling-page-wrapper .useraa3 .info_icon {
+  max-width: 16px;
+  transform: translateY(-2px);
+}
+#superadminbilling-page-wrapper .useraa3 span {
+  font-size: 14px;
+  color: #d0021b;
+  font-weight: 700;
+}
+
+#superadminbilling-page-wrapper .stripf {
+  background-color: #fff;
+  /* height: 375px; */
+  margin-top: 15px;
+  padding: 35px;
+}
+#superadminbilling-page-wrapper .acdetal {
+  font-size: 18px;
+  color: #133a62;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-weight: 700;
+}
+#superadminbilling-page-wrapper .comname {
+  font-size: 12px;
+  color: #000;
+  padding-top: 25px;
+  padding-left: 150px;
+}
+#superadminbilling-page-wrapper .comname span {
+  font-size: 14px;
+  color: #133a62;
+  padding-left: 10px;
+}
+#superadminbilling-page-wrapper .comname1 {
+  font-size: 12px;
+  color: #000;
+  padding-top: 25px;
+  padding-left: 150px;
+}
+#superadminbilling-page-wrapper .box {
+  background-color: #e0dede;
+  height: 40px;
+  width: 500px;
+}
+#superadminbilling-page-wrapper .comname1 span {
+  font-size: 14px;
+  color: #133a62;
+  padding-left: 20px;
+}
+#superadminbilling-page-wrapper .comname2 {
+  font-size: 12px;
+  color: #000;
+  padding-top: 25px;
+  padding-left: 150px;
+}
+#superadminbilling-page-wrapper .comname2 span {
+  font-size: 14px;
+  color: #133a62;
+  padding-left: 20px;
+}
+
+
+#superadminbilling-page-wrapper .due {
+  background-color: #d0021b;
+  height: 40px;
+  width: 280px;
+  margin-bottom: 2px;
+  position: absolute;
+  right: 15px;
+  top: 15px
+}
+#superadminbilling-page-wrapper .cardfailed {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+}
+#superadminbilling-page-wrapper .cardfailed .info_icon_white {
+  max-width: 20px;
+}
+#superadminbilling-page-wrapper .plan {
+  font-size: 16px;
+  color: #272727;
+  /* margin-top: 30px; */
+  font-weight: 700;
+  width: 100%;
+}
+#superadminbilling-page-wrapper .acdetalbilling {
+  font-size: 18px;
+  color: #133a62;
+  /* padding-top: 20px; */
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+#superadminbilling-page-wrapper .enterprise {
+  font-size: 14px;
+  color: #133a62;
+  /* margin-left: 16px; */
+  font-weight: 500;
+  margin-top: 16px;
+}
+#superadminbilling-page-wrapper .enterprise .ero {
+  max-width: 16px;
+}
+#superadminbilling-page-wrapper .enterline {
+  width: 85%;
+  align-content: center;
+  height: 1px;
+  background-color: #133a62;
+}
+#superadminbilling-page-wrapper .graybox {
+  background-color: #eff3f7;
+  width: 90%;
+  height: 90px;
+  margin-top: 10px;
+}
+#superadminbilling-page-wrapper .whats {
+  color: #272727;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+}
+#superadminbilling-page-wrapper .retrohundred {
+  font-size: 16px;
+  font-weight: 500;
+  color: #878787;
+  padding-top: 20px;
+}
+#superadminbilling-page-wrapper .promocode {
+  font-size: 16px;
+  color: #272727;
+  margin-top: 40px;
+  font-weight: 700;
+  width: 100%;
+}
+#superadminbilling-page-wrapper .activepromocode {
+  font-size: 14px;
+  color: #133a62;
+  margin-top: 5px;
+}
+#superadminbilling-page-wrapper .activepromocode span {
+  font-size: 14px;
+  color: #133a62;
+  margin-top: 5px;
+  font-weight: 700;
+}
+#superadminbilling-page-wrapper .activepromocode a {
+  font-size: 14px;
+  color: #06f;
+  margin-top: 5px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+#superadminbilling-page-wrapper .fifmonth {
+  font-size: 14px;
+  color: #939596;
+}
+#superadminbilling-page-wrapper .payment {
+  font-size: 16px;
+  color: #272727;
+  /* margin-top: 75px; */
+  font-weight: 700;
+  width: 100%;
+}
+#superadminbilling-page-wrapper .visa {
+  font-size: 14px;
+  color: #272727;
+  margin-top: 16px;
+}
+#superadminbilling-page-wrapper .visa a {
+  color: #06f;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 75px;
+}
+#superadminbilling-page-wrapper .biliingcontact {
+  font-size: 16px;
+  color: #272727;
+  margin-top: 25px;
+  font-weight: 700;
+  width: 100%;
+}
+#superadminbilling-page-wrapper .graybox1 {
+  background-color: #eff3f7;
+  width: 100%;
+  max-width: 250px;
+  height: 40px;
+  margin-top: 5px;
+}
+#superadminbilling-page-wrapper .boblaw {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding-left: 25px;
+  padding-top: 8px;
+}
+#superadminbilling-page-wrapper .boblaw .ero {
+  max-width: 18px;
+}
+#superadminbilling-page-wrapper .stripf1 {
+  background-color: #fff;
+  height: 375px;
+  margin-top: 25px;
+  padding-left: 50px;
+}
+
+
+#superadminbilling-page-wrapper .invoice-history {
+  padding: 35px;
+  background: #fff;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#superadminbilling-page-wrapper .invoice-history .table td {
+  border-top: none;
+  padding: 0.5rem;
+}
+#superadminbilling-page-wrapper .invoice {
+  color: #133a62;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+#superadminbilling-page-wrapper .text-red {
+    color: #d0021b;
+}
+#superadminbilling-page-wrapper .download-icon {
+    max-width: 21px;
+}
+
+#superadminbilling-page-wrapper .add-card {
+    display: block;
+    background: #f88440;
+    color: #fff;
+    width: 200px;
+    margin: 5px 0;
+    padding: 5px 0;
+    text-align: center;
+    border: 1px solid #f88440;
+}
+#superadminbilling-page-wrapper .account-type-dropdown {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+#superadminbilling-page-wrapper .account-type-dropdown .dropdown button {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #133a62;
+  font-weight: 700;
+  border: none;
+  background-image: url(./img/ddl-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 10px center;
+  text-align: left !important;
+  padding-left: 35px;
+}
+#superadminbilling-page-wrapper .account-type-dropdown .dropdown .dropdown-menu {
+  text-align: left;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 0;
+}
+#superadminbilling-page-wrapper .account-type-dropdown .dropdown .dropdown-menu a {
+  color: #133a62 !important;
+  text-align: left !important;
+}
+#superadminbilling-page-wrapper .w-135 {
+    width: 135px;
+}
+#superadminbilling-page-wrapper .select-plan-dropdown .dropdown button {
+  margin-bottom: 0;
+  background-color: transparent !important;
+  color: #133a62 !important;
+  border-radius: 0 !important; 
+  border: none;
+  border-bottom: 1px solid #133a62;
+  display: block;
+  background-image: url(./img/ddl-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 16px;
+  font-size: 14px;
+  -webkit-transition: none;
+  transition: none;
+  padding-left: 35px;
+}
+#superadminbilling-page-wrapper .select-plan-dropdown .dropdown button,
+#superadminbilling-page-wrapper .select-plan-dropdown .dropdown-menu {
+  width: 100%;
+  max-width: 85%;
+  text-align: left !important;
+  border-radius: 0 !important;
+}
+#superadminbilling-page-wrapper .select-plan-dropdown .dropdown-menu a {
+  text-align: left !important;
+}
+#superadminbilling-page-wrapper .select-plan-dropdown .dropdown.show .dropdown-menu .dropdown-item {
+    color: #133A62 !important;
+    text-align: left;
+    font-weight: 400;
+}

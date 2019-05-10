@@ -1,0 +1,143 @@
+#superadmineditretro-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url('./img/orange-shape.svg') !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2100px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#superadmineditretro-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: 1110px, center;
+    background-position-y: -655px, bottom;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+
+#superadmineditretro-page-wrapper .edit-title {
+    background: #fff;
+    padding: 20px 30px;
+}
+
+#superadmineditretro-page-wrapper .edit-title {
+    background: #fff;
+    padding: 20px 30px;
+}
+#superadmineditretro-page-wrapper .edit-title h2 {
+    color: #133A62;
+    text-transform: capitalize !important;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+}
+#superadmineditretro-page-wrapper #edit-title button {
+    width: 150px;
+    text-align: center;
+    border-radius: 0;
+}
+#superadmineditretro-page-wrapper .sprint-code {
+    height: 50px !important;
+    line-height: 50px !important;
+}
+#superadmineditretro-page-wrapper .headingSandC {
+    margin-bottom: 1rem;
+}
+#superadmineditretro-page-wrapper .optional-link {
+    position: absolute;
+    font-size: 14px;
+    right: 15px;
+    top: -25px;
+    color: #3B75FA;
+    margin-bottom: 0;
+}
+#superadmineditretro-page-wrapper .invite-email-field {
+    background: #f5f5f5;
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+}
+#superadmineditretro-page-wrapper .invite-email-field + .input-group-append button {
+    border-radius: 0;
+    width: 135px;
+}
+
+#superadmineditretro-page-wrapper #edit-content .invite-list .add-email i {
+    display: inline-block;
+    transform: initial;
+}
+#superadmineditretro-page-wrapper #edit-content > div:last-child {
+    padding-left: 15px !important;
+}
+#superadmineditretro-page-wrapper #edit-content > div:last-child > div:last-child {
+    margin: 0 !important;
+}
+#superadmineditretro-page-wrapper #date-edit .react-datepicker__input-container input {
+    height: 50px;
+    line-height: 50px;
+}
+#superadmineditretro-page-wrapper .project-info-field {
+    background-image: url(./img/ddl-arrow-right.svg);
+}
+#superadmineditretro-page-wrapper #edit-content select {
+    border: none !important;
+    background-color: #f5f5f5;
+    border-radius: 0;
+    min-height: 50px;
+}
+#superadmineditretro-page-wrapper .btn.btn-warning {
+    background-color: #f88440;
+    border-color: #f88440;
+    color: #fff;
+    height: 50px;
+}
+#superadmineditretro-page-wrapper .tap2dropdown {
+    /* width: 230px; */
+    align-items: center;
+    margin-top: 0;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.am-pm_dropdown_wrapper {
+    margin: -6px 0px 0 10px;
+}
+#superadmineditretro-page-wrapper .cst-checkbox-label {
+    margin-top: 5px !important;
+}
+#superadmineditretro-page-wrapper .save-retro .save-btn {
+    background-color: rgba(68, 121, 246, 0.6) !important;
+}
+#superadmineditretro-page-wrapper .time_dropdown_btn {
+    height: 50px;
+    line-height: 50px;
+}
+.h-auto {
+    height: auto;
+}
+.superadmin-editretro-date-content {
+    display: flex;
+    align-items: center;
+}
+#superadmineditretro-page-wrapper #date-edit .superadmin-editretro-date-content .react-datepicker__input-container input {
+    margin-bottom: 0;
+}
+.superadmin-editretro-date-content > div:not(:last-child) {
+    margin-right: 10px;
+}
+.superadmin-editretro-date-content label {
+    margin-bottom: 0;
+}
+.superadmin-editretro-date-content .time_dropdown_wrapper button {
+    background-image: url(./img/ddl-arrow-right.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 5px center;
+    padding-left: 25px !important;
+    border-bottom: 1px solid #dddddd;
+}

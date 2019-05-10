@@ -1,0 +1,22 @@
+
+body, .body-content{
+
+    
+    text-transform:sentancecase;
+}
+.body-content.newBg{
+    background-color: #fff !important;
+    background-image: none !important;
+}
+.headerTitle{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #3b75fa;
+    margin-top: 30px;
+}
+.termsContent{
+    margin-left: 0px !important;
+    font-size: 15px !important;
+}
+

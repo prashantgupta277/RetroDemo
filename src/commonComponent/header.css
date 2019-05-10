@@ -1,0 +1,111 @@
+li a {
+    text-decoration: none !important;
+}
+
+#headMain .navbar-light .navbar-nav .active>.nav-link,
+#headMain .navbar-light .navbar-nav .nav-link.active,
+#headMain .navbar-light .navbar-nav .nav-link.show,
+#headMain .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: initial;
+}
+
+.super-admin-menu-container {
+    background: rgba(255,255,255,0.9) !important;
+}
+.module-middle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.module-middle ul {
+    padding-left: 0;
+    margin: 0;
+    /* margin-top: 25px; */
+}
+.module-middle ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.module-middle ul li a {
+    padding: 15px 35px;
+    color: #133a62;
+    height: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+}
+.module-middle ul li:not(:last-child) {
+    margin-right: 15px;
+}
+.module-middle ul li.sidebarActive a {
+    background-color: #133a62;
+    color: #fff;
+}
+.navbarDropdownContent {
+    background-color: #133A62 !important;
+    width: 200px;
+    border-radius: 0 !important;
+}
+.navbarDropdownContent a {
+    color: #fff !important;
+    font-weight: normal;
+}
+
+
+#mainheader{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9999;
+    top: 0;
+}
+#mainheader .btn-filled{color: #fff !important; letter-spacing: 0; border-radius: 3px;background: #000000}
+.text_center{
+    text-align: center;
+
+}
+
+.textArea{
+    width: 100% !important;
+    height: 150px !important;
+}
+
+.contactusTitle{
+    color: #6CD351 !important;
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+.contactusTitle b{
+    color: #6CD351 !important;
+}
+.contact_us_modal_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.handPointer{
+    cursor: pointer;
+}
+
+.customeModal{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -40px;
+    background: #eee;
+    color: #000;
+    text-align: center;
+}
+
+.closebutton{
+    background: transparent !important;
+    border: none!important;
+    color: #000!important;
+    font-size: 44px !important;
+    padding: 0px !important;
+    margin-right: 10px;
+    margin-top: -30px !important;
+}

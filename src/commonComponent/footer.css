@@ -1,0 +1,14 @@
+li a {
+    text-decoration: none !important;
+}
+.footer .navbar-nav .nav-item{
+    margin-right: 0 !important;
+}
+
+.footer img {
+    float: left;
+    margin: 10px;
+}
+.close{
+    z-index: 999999 !important;
+}

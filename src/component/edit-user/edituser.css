@@ -1,0 +1,118 @@
+
+#edituser .account-type-dropdown .dropdown button {
+    margin-bottom: 0;
+    width: 100%;
+    background-color:#eff3f7;
+    color:#133a62;
+    font-weight: 700;
+    border:none;
+    height:50px;
+    /* border-bottom: 1px solid #f88440; */
+    background-image: url('./img/ddl-arrow-right.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+    text-indent: 10px;
+}
+#edituser .account-type-dropdown .dropdown button,
+#edituser .account-type-dropdown .dropdown .dropdown-menu {
+    text-align: left !important;
+}
+
+#edituser .sideBar.sidebar-top, #edituser .infoCard {
+    background-color: var(--white);
+    border-radius: 2px;
+}
+#edituser .account-type-dropdown {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 125px);
+}
+#edituser .form-box {
+    padding: 20px 35px;
+    background-color: #fff;  
+    box-shadow: none;  
+    max-width: 95%;
+    margin: 0 auto;
+}
+#edituser .mail{
+    text-align: right;
+}
+#edituser .ra{
+    margin-left:19%;
+}
+.breadcrumb{
+    background-color: transparent !important;
+}
+
+#edituser .edit-user-page-retros {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 25px;
+}
+#edituser .edit-user-page-retros .edit-user-page-retros-header h4 {
+    font-size: 21px;
+    color: #133A62;
+    font-weight: 600;
+    margin: 0;
+}
+#edituser .edit-user-page-retros .edit-user-page-retros-body table thead td {
+    color: #878787;
+}
+#edituser .edit-user-page-retros .edit-user-page-retros-body table tbody td {
+    padding: .5rem .75rem;
+}
+#edituser .edit-user-page-retros .edit-user-page-retros-body table tr td:nth-child(4),
+#edituser .edit-user-page-retros .edit-user-page-retros-body table tr td:nth-child(5) {
+    text-align: center;
+}
+#edituser .edit-user-page-retros .edit-user-page-retros-body table tbody td a {
+    color: #3b75fa;
+}
+#edituser .bg-dark-gray {
+    background-color: #d7dbde;
+}
+#edituser .bg-light-gray {
+    background-color: #e9ebed;
+}
+#edituser .edit-user-page-retros-body table tbody tr td.upcoming-text {
+    color: #333;
+    text-align: center;
+    padding: 0;
+    font-weight: 600;
+}
+#edituser .edit-user-page-retros-body table tbody tr:hover {
+    background-color: #ebf1fe; 
+}
+#edituser .edit-user-page-retros-foot .pagination {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#edituser .edit-user-page-retros-foot .pagination .page-item.active a {
+    font-weight: 700;
+    color: #000;
+}
+#edituser .edit-user-page-retros-foot .pagination .page-item a {
+    color: #3b75fa;
+    background: transparent !important;
+}
+
+b.bwidth{
+    width:100%;
+    display: inline-block;
+}
+
+#edituser .down_arrow {
+   
+    background-position: 60% center;
+   
+}
+.edituser_content_box {
+    padding: 35px;
+}
+.edit_user_page_title {
+    color: #133a62;
+}

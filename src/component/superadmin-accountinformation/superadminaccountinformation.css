@@ -1,0 +1,99 @@
+#superadminaccountinformation-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url('./img/orange-shape.svg') !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2100px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#superadminaccountinformation-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: 1110px, center;
+    background-position-y: -655px, bottom;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+
+.three-cols > div .one-col {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.three-cols > div .one-col p:first-of-type {
+    color: #133a62;
+}
+.three-cols > div .one-col h1 {
+    color: #3b75fa;
+    margin: 0;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    position: relative;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.three-cols > div .one-col h1 span {
+    font-size: 16px;
+    color: #133a62;
+    font-weight: normal;
+    position: absolute;
+    left: calc(100% + 10px);
+    line-height: 16px;
+    bottom: 4px;
+}
+.three-cols > div .one-col p:last-of-type {
+    color: #1c2a38;
+    margin-top: 10px;
+}
+.three-cols > div .one-col p:last-of-type img {
+    max-width: 14px;
+    margin-top: -2px;
+    margin-right: 10px;
+}
+.three-cols > div .one-col p:last-of-type .red-text {
+    color: #d0021b;
+    font-weight: 700;
+}
+
+.striph1{
+    background-color: #fff;
+    /* min-height: 500px; */
+    /* margin-top: 50px; */
+    padding: 35px;
+}
+.striph1 .tab table tbody tr:hover {
+    background-color: #ebf1fe;
+}
+.striph1 .tab table tbody tr td {
+    padding: .25rem .75rem;
+}
+
+.stripa1{
+    width: 100%; 
+    background-color: #fff;
+    height: 500px; 
+    margin-top: 50px; 
+    padding-top: 20px;
+}
+
+.account-details-box, .disable-account {
+    padding: 1px 0 0;
+}
+
+.account-details-box .form-box, .disable-account .form-box {
+    max-width: 100%;
+    box-shadow: none;
+}
+
+.striphh{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.mb-15px-imp {
+    margin-bottom: 15px !important;
+}

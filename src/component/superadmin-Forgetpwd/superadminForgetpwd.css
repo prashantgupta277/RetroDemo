@@ -1,0 +1,86 @@
+#superadmin_loginpage_wrapper {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(./img/orange-shape.svg) , url(./img/green-shape.svg);
+    z-index: 50;
+    background-position-y: -2480px,-665px;
+    background-position-x: -2100px,1110px;
+    background-color: #f7f7f7;
+}
+#superadmin_loginpage_wrapper > .container-fluid:after {
+    content: '';
+    height: 350px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    /* background-image: url(./img/RetroSummary_BG.png); */
+    background-image: url(./img/blue-shape.svg);
+    z-index: -1;
+    background-position-y: -110px;
+    background-position-x: -2010px;
+    background-repeat: no-repeat;
+}
+
+.superadmin_loginpage_header {
+    background-color: rgba(255,255,255,0.85);
+    padding: 10px 15px;
+    text-align: left;
+}
+.company_logo {
+    max-height: 35px;
+}
+
+.superadmin_login_content_wrapper {
+    min-height: calc(100vh - 55px);
+    padding: 75px;
+}
+.superadmin_login_box_wrapper {
+    max-width: 600px;
+    width: 100%;
+    padding: 35px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+    background: #fff;
+    margin: 0 auto;
+}
+
+.superadmin_login_box {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 360px;
+}
+.superadmin_login_box_header {
+    margin-bottom: 35px;
+}
+.superadmin_login_box_header .page_title {
+    color: #133A62;
+    font-weight: 700;
+    margin: 0;
+}
+
+.superadmin_login_box_body label {
+    color: #133A62;
+    text-align: left;
+    display: block;
+}
+.superadmin_login_box_body .form-control {
+    margin-bottom: 0;
+    background: #f7f7f7;
+    border: none;
+    height: 50px;
+    line-height: 50px;
+}
+.forgot_password_link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #3b75fa;
+    margin-bottom: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.superadmin_login_box_footer {
+    margin-top: 35px;
+}
+.superadmin_login_box_footer button {
+    border-radius: 0;
+}

@@ -1,0 +1,60 @@
+
+#adduser .account-type-dropdown .dropdown button {
+    margin-bottom: 0;
+    width: 100%;
+    background-color:#eff3f7;
+    color:#133a62;
+    font-weight: 700;
+    border:none;
+    height:50px;
+    /* border-bottom: 1px solid #f88440; */
+    background-image: url('./img/ddl-arrow-right.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+    text-indent: 10px;
+}
+#adduser .account-type-dropdown .dropdown button,
+#adduser .account-type-dropdown .dropdown .dropdown-menu {
+    text-align: left !important;
+}
+
+#adduser .sideBar.sidebar-top, #adduser .infoCard {
+    background-color: var(--white);
+    border-radius: 2px;
+}
+#adduser .account-type-dropdown {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 125px);
+}
+#adduser .form-box {
+    padding: 35px;
+    background-color: #fff;  
+    box-shadow: none;  
+    max-width: 95%;
+    margin: 0 auto;
+}
+#adduser .mail{
+    text-align: right;
+}
+#adduser .ra{
+    margin-left:19%;
+}
+.breadcrumb{
+    background-color: transparent !important;
+}
+.projects_page_title {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.projects_data_table tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.projects_data_table tbody tr:hover {
+    background-color: #ebf1fe;
+}
+.fw-n {
+    font-weight: normal !important;
+ }

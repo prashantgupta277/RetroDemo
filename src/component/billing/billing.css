@@ -1,0 +1,468 @@
+
+body, .body-content{
+
+    
+    text-transform:sentancecase;
+}
+.body-content.newBg{
+    /* background-color: #e6e7e7 !important; */
+}
+
+ .cust-bg::before {
+    content: "";
+    background: url(/static/media/orange-shape.41910500.svg);
+    position: absolute;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-position-x: -2005px;
+    background-position-y: -2420px;
+    min-height: 800px;
+    z-index: 0;
+}
+.redBg::before{
+    content: "";
+    background: url(/static/media/green-shape.a45d5d18.svg);
+    position: absolute;
+    width: 500px;
+    background-repeat: no-repeat;
+    min-height: 1730px;
+    z-index: 0;
+    top: -680px;
+    right: -168px;
+    overflow: hidden;
+}
+
+.footerBlue::before {
+    content: "";
+    background: url(/static/media/blue-shape.30824078.svg);
+    position: absolute;
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+    width: 3587px;
+    background-repeat: no-repeat;
+    min-height: 560px;
+    z-index: 0;
+    top: 580px;
+    left: -2005px;
+    overflow: hidden;
+    background-size: inherit;
+}
+.zIndexTop{
+    z-index: 2;
+}
+body{
+    color:rgb(11, 7, 71);
+    
+}
+#billing{
+    z-index: 5;
+}
+.sideBar .sidebar-top, #billing .infoCard {
+    background-color: var(--white);
+    border-radius: 2px;
+}
+
+.sideBar .sidebar-top{
+    min-height: 800px;
+
+}
+#billing .al-Self{
+    align-self: center;
+}
+
+.pull-right{
+    float: right;
+}
+
+.downloadAllData{
+    color: #3b75fa;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#billing .fd-Column{
+    flex-direction: column;
+}
+#billing .formContainer{
+    width:80%;
+    margin:0 auto;
+}
+
+#billing .formContainer input[type=text], #billing .formContainer input[type=phone], #billing .formContainer select
+{ background:#e6e7e7;
+ border: solid 1px #ccccff;
+ margin-bottom: 0 !important; 
+    height:50px;
+}
+
+#billing .rate-num{font-size: 40px; font-weight:bold; color:#3b75fa; line-height: 52px;}
+
+#billing .self-bold{font-weight: 700; color:#000; margin-top: 10px; }
+
+#billing .error{color: #d0021b;}
+#billing .pinkBtn{
+background-color: #fddac6;
+    color: #fff;
+    min-width: 175px;
+    width:auto;
+    font-size: 16px;
+    line-height: 20px;
+    border:none;
+}
+#billing .orangeBtn{
+        border:solid 1px #ff6e07;
+        color: #ff6e07;
+        min-width: 175px;
+        width:auto;
+        border-radius: 4px !important;
+        background: transparent;
+        font-size: 16px;;
+        line-height: 20px;
+    }
+#billing .orangeBtn:hover{
+    border-color: #fff;
+        color: #fff;
+        background-color: #ff6e07;
+        min-width: 175px;
+    }
+#billing .footer, #billing .footer span, .footer, .footer span{
+    color:#ccc;
+}   
+ul.sidebarMenu {   
+    width:100%
+}
+
+ul.sidebarMenu li a{
+      padding:20px 50px;
+      color:#133a62;
+      font-weight: 600;
+}
+ul.sidebarMenu li:hover,ul.sidebarMenu li:active, ul.sidebarMenu li .active{
+    background-color:#133a62;
+    color:#fff !important;
+    width:100%
+}
+ul.sidebarMenu li:hover a{
+    color:#fff;
+}
+.w-90{
+    width:90px !important;
+}
+.w-60{
+    width:60px !important;
+}
+.w-128{
+    width:128px !important;
+}
+
+#billing .formInlineValues{
+    flex: 0 0 75%;
+    margin-left: auto;
+    align-items: center;
+}
+
+/* #billing .footer,  .footer{
+    background: #133A62;
+    padding: 40px 0;
+    margin-top: 50px;
+position: relative;
+} */
+
+#billing .footer ul li,  .footer ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 300px;
+    }
+
+#billing .footer ul li a,  .footer ul li a{
+    color:#8f98a2;
+
+}
+
+.footerBlue::before,.cust-bg::before,.redBg::before{
+    display:none;
+} 
+
+
+@media only screen and (max-width: 576px) {    
+#billing .sideBar .sidebar-top {
+    min-height: 100px;
+} 
+
+#billing .data-right .p-0, #billing .data-right .p-1, #billing .data-right .p-2, #billing .data-right .pr-0, #billing .data-right .pl-1{
+padding-left:15px !important;
+padding-right:15px !important;
+}
+
+#billing .data-right .col-md-4{margin-bottom: 15px;}
+
+
+#billing .formContainer {width:100%;}
+
+#billing .formContainer label{text-align: left !important; display: block;}
+
+#billing .formContainer .w-135{width:100% !important; margin: 0px !important;}
+
+#billing .orangeBtn{margin-right:0px !important; }
+
+#billing .fld-group label{width:100% !important; flex-direction: column;}
+
+#billing .fld-group .formInlineValues{
+    display: block !important;
+    flex:auto !important;
+}
+#billing .w-135, #billing .w-60, #billing .w-90{
+    width:100% !important;
+}
+
+.footerBlue::before,.cust-bg::before,.redBg::before{
+    display:none;
+} 
+
+}
+
+
+#billing .select-plan-dropdown .dropdown.show {
+    padding-top: 0;
+}
+#billing .select-plan-dropdown .dropdown button,
+#billing .select-plan-dropdown .dropdown-menu {
+    width: 100%;
+    max-width: 85%;
+    text-align: left;
+}
+#billing .select-plan-dropdown .dropdown button {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    color: #133A62 !important;
+    border: none;
+    border-bottom: 1px solid #133A62;
+    display: block;
+    background-image: url('./img/ddl-arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 16px;
+    font-size: 14px;
+    text-indent: 3px;
+    transition: none;
+}
+
+#billing .select-plan-dropdown .dropdown.show button {
+    background-image: url('./img/ddl-arrow-down.svg');
+    background-size: 9px;
+}
+
+#billing .select-plan-dropdown .dropdown.show .dropdown-menu {
+    border-radius: 0;
+}
+#billing .select-plan-dropdown .dropdown.show .dropdown-menu .dropdown-item {
+    color: #133A62 !important;
+    text-align: left;
+    font-weight: 400;
+}
+#billing .br-0{
+    border-radius: 0;
+}
+
+#billing .greyBox{
+    background: #eff3f7;
+    min-height: 20px;
+    padding:20px;
+}
+
+#billing .due{
+    background-color: #d0021b;
+    height: 40px;
+    width: 280px;
+    margin-bottom: 2px;
+}
+#billing .cardfailed{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+#billing .flexWrap{
+    flex-wrap: wrap
+}
+#billing .fifmonth{
+    font-size: 14px;
+    color: #939596;
+}
+#billing .payment{
+    font-size: 16px;
+    color: #000;
+    margin-top: 75px;
+    font-weight: 700;
+    width: 100%;
+}
+#billing .visa {
+    font-size: 14px;
+    color: #000;
+    margin-top: 16px;
+    max-width: 275px;
+    width: 100%;
+}
+#billing .visa:after {
+    content: ' ';
+    display: block;
+    clear: both;
+} 
+#billing .visa a {
+    color: #0066ff;
+    font-size: 14px;
+    font-weight: 500;
+    float: right;
+}
+#billing .biliingcontact{
+    font-size: 16px;
+    color: #000;    
+    font-weight: 700;
+    width: 100%;
+}
+#billing .biliingcontact a {
+    margin-top: 10px;
+    display: block;
+    max-width: 225px;
+    width: 100%;
+    text-decoration: none !important;
+}
+#billing .biliingcontact a button {
+    width: 100%;
+    border-radius: 0;
+    font-weight: 600;
+}
+#billing .graybox1{
+    background-color: #eff3f7;
+    width: 100%;
+    max-width: 250px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.fontGreySmall{
+    font-size: 14px;
+}
+.fontGreySmall p{
+    margin-bottom: 5px;
+}
+.colorDarkBlue{
+    color: #133a62;
+    font-weight: 800;
+}
+.colorLightBlue{
+    color: #0066ff;
+    float: right;
+}
+
+.dropdown-toggle::after{
+    display: none !important
+}
+
+
+#billing .account-type-dropdown {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 125px);
+}
+#billing .account-type-dropdown .dropdown button {
+    margin-bottom: 0;
+    width: 100%;
+    background-color:#eff3f7;
+    color:#133a62;
+    font-weight: 700;
+    border:none;
+    /* border-bottom: 1px solid #f88440; */
+    background-image: url('./img/ddl-arrow-right.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+    text-indent: 10px;
+}
+#billing .account-type-dropdown .dropdown button,
+#billing .account-type-dropdown .dropdown .dropdown-menu {
+    text-align: left !important;
+}
+#billing .account-type-dropdown .dropdown .dropdown-menu a {
+    color: #133a62 !important;
+    text-align: left !important;
+}
+#billing .invoice{
+    color: #133A62;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+#invoiceHistory table tr td{
+    padding:0.25rem 1rem;
+}
+.text-red{
+    color:#d0021b;
+}
+#billing .paymentMethodButton{
+    width: 50%;
+    background: #f88440;
+    color: white;
+    font-weight: bold;
+}
+#billing .plans-select-field {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #133A62;
+}
+.billing_page_title {
+    margin-bottom: 15px;
+}
+.invoice-history-title {
+    margin-bottom: 25px;
+}
+#billing .invoiceHistory-content {
+    padding: 35px !important;
+}
+.updateChanges-btn {
+    background: #f88440;
+    color: white;
+    border: none;
+    width: 180px;
+    padding: 10px;
+    cursor: pointer;
+}
+.text-db-blue2 {
+    color: #1b2937 !important;
+}
+.text-dk-grey {
+    color: #272727 !important;
+}
+.download_icon {
+    max-width: 21px;
+}
+
+.ApplyButton{
+    color: #f88440;
+    cursor: pointer 
+}
+.handPointer{
+    cursor: pointer;
+}
+
+#billing {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url('./img/orange-shape.svg') !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2100px !important;
+    background-color: #f7f7f7 !important;
+    background-size: initial !important;
+}
+#billing > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: 1110px, center;
+    background-position-y: -655px, bottom;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}

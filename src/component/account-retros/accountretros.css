@@ -1,0 +1,95 @@
+#accountretros-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url('./img/orange-shape.svg') !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2100px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#accountretros-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: 1110px, center;
+    background-position-y: -655px, bottom;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+.count2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #6cd451;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.mb-15px {
+    margin-bottom: 15px;
+}
+.db {
+    display: block;
+}
+.d-ib {
+    display: inline-block;
+}
+.w-135 {
+    width: 135px;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.cst-checkbox-wrapper {
+    width: 180px;
+    text-align: left;
+    margin: 0 0 0 auto;
+}
+.width-120px-imp {
+    width: 120px !important;
+}
+.pad-25px-imp {
+    padding: 25px !important;
+}
+#accountretros-page-wrapper .edit-user-page-retros {
+    background-color: #fff;
+}
+#accountretros-page-wrapper .edit-user-page-retros-body table thead tr td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#accountretros-page-wrapper .edit-user-page-retros-body table tbody tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#accountretros-page-wrapper .edit-user-page-retros-body table thead tr td:first-child,
+#accountretros-page-wrapper .edit-user-page-retros-body table tbody tr td:first-child {
+    padding-left: 25px;
+}
+#accountretros-page-wrapper .edit-user-page-retros-body table thead tr td:last-child,
+#accountretros-page-wrapper .edit-user-page-retros-body table tbody tr td:last-child {
+    padding-right: 25px;
+}
+#accountretros-page-wrapper .edit-user-page-retros-body table tbody tr:not(.bg-light-orange):not(.bg-dark-orange):hover {
+    background-color: #ebf1fe;
+}
+
+#accountretros-page-wrapper .edit-user-page-retros-foot {
+    padding: 10px 25px 25px;
+}
+#accountretros-page-wrapper .edit-user-page-retros-foot ul {
+    margin-bottom: 0;
+}
+#accountretros-page-wrapper .edit-user-page-retros-foot .pagination .page-item a {
+    color: #3b75fa;
+    background: transparent !important;
+}
+#accountretros-page-wrapper .edit-user-page-retros-foot .pagination .page-item.active a {
+    font-weight: 700;
+    color: #000;
+}
+#accountretros-page-wrapper .upcoming-text {
+    padding: 0px !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #133A62;
+    font-weight: 600;
+}

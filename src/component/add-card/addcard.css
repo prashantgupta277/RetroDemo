@@ -1,0 +1,184 @@
+/* Header */
+#addcart-page-wrapper .user_name span {
+    font-weight: 900;
+}
+
+/* BreadCrumb */
+#addcart-page-wrapper #bread-crumb li a {
+    font-weight: 600;
+}
+
+#addcart-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url(./img/orange-shape.svg) !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2050px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#addcart-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: -1230px, center;
+    background-position-y: -600px, bottom;
+    padding-bottom: 50px;
+    background-repeat: initial, no-repeat;
+}
+
+@media (min-width: 1500px) {
+    #addcart-page-wrapper {
+        background-position-x: -2000px !important;
+    }
+    #addcart-page-wrapper > .container-fluid {
+        background-position-x: -1030px;
+    }
+}
+@media (min-width: 1700px) {
+    #addcart-page-wrapper > .container-fluid {
+        background-position-x: -830px;
+    }
+}
+
+/* Form */
+.form-box-wrapper {
+    padding: 35px 0;
+}
+.form-box {
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.05);
+    max-width: 575px;
+    margin: 0 auto;
+}
+.form-box .form-box-header {
+    margin-bottom: 10px;
+}
+.form-box .form-box-header h6 {
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.form-box .form-box-header p {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.form-box .form-box-body .form-feild-box.mb-25px {
+    margin-bottom: 25px !important;
+}
+.form-box .form-box-body .form-feild-box {
+    margin-bottom: 10px;
+}
+.form-box .form-box-body .form-feild-box label {
+    width: 125px;
+    text-align: right;
+    margin-bottom: 0;
+    padding-right: 21px;
+    color: #878787;
+    font-weight: 600;
+    font-size: 14px;
+}
+.form-box .form-box-header h5{
+    text-align:left;
+    color:#23486c;
+}
+.form-box .form-box-body .form-feild-box input {
+    width: calc(100% - 125px);
+    margin-bottom: 0; 
+}
+.form-box .form-box-body .form-feild-box.mb-25px input::-webkit-input-placeholder {
+    font-weight: 900;
+}
+.form-box .form-box-body .form-feild-box.mb-25px input::-moz-placeholder {
+    font-weight: 900;
+}
+.form-box .form-box-body .form-feild-box.mb-25px :-ms-input-placeholder {
+    font-weight: 900;
+}
+.form-box .form-box-body .form-feild-box.mb-25px :-moz-placeholder {
+    font-weight: 900;
+}
+.form-box .form-box-body .form-feild-box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #23486c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-box .form-box-body .form-feild-box input::-moz-placeholder { /* Firefox 19+ */
+    color: #23486c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-box .form-box-body .form-feild-box input:-ms-input-placeholder { /* IE 10+ */
+    color: #23486c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-box .form-box-body .form-feild-box input:-moz-placeholder { /* Firefox 18- */
+    color: #23486c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-box-header h5{
+    text-align: center;
+}
+
+.form-box .form-box-footer {
+    margin-top: 50px;
+}
+.form-box .form-box-footer .buttons-box {
+    text-align: center;
+}
+.form-box .form-box-footer .buttons-box button {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #f88440;
+    padding: 10px 15px;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+}
+.form-box .form-box-footer .buttons-box button:hover {
+    cursor: pointer;
+}
+.form-box .form-box-footer .buttons-box button.cancel-btn {
+    background-color: #fff;
+    color: #f88440;
+}
+.form-box .form-box-footer .buttons-box button.cancel-btn:hover {
+    background-color: #f88440;
+    color: #fff;
+}
+.form-box .form-box-footer .buttons-box button.saveChanges-btn {
+    background-color: #f88440;
+    color: #fff;
+    margin-left: 10px;
+}
+.form-box .form-box-footer .buttons-box button.saveChanges-btn:hover {
+    background-color: #fff;
+    color: #f88440;
+}
+
+@media (min-width: 768px){ #addcart-page-wrapper>.col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+/* Footer */
+#footer {
+    background-color: #32373c;
+    padding: 10px 0;
+    margin-top: 0;
+}
+.add-payment-page-title {
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.add-payment-page-subtitle {
+    margin-bottom: 25px !important;
+}

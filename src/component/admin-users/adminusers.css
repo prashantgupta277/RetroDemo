@@ -1,0 +1,83 @@
+#adminusers-page-wrapper {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-image: url("./img/orange-shape.svg") !important;
+    z-index: 50;
+    background-position-y: -2480px !important;
+    background-position-x: -2050px !important;
+    background-color: #f7f7f7 !important;
+}
+
+#adminusers-page-wrapper > .container-fluid {
+    background-image: url('./img/green-shape.svg'), url('./img/RetroSummary_BG.png');
+    background-position-x: 1110px, center;
+    background-position-y: -655px, bottom;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+
+.bdr-top-none {
+    border-top: none;
+}
+.mb-50px {
+    margin-bottom: 50px;
+}
+
+.section-title h4 {
+    font-size: 18px;
+    color: #133A62;
+    font-weight: 700;
+    padding-left: 0px;
+}.pad-25px {
+    padding: 25px;
+}
+.pad-35px {
+    padding: 35px;
+}
+.orange-btn {
+    background-color: #f88440;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0;
+    border: 1px solid #f88440;
+    min-width: 175px;
+    padding: 10px 0;
+}
+.orange-btn i {
+    margin-right: 10px;
+}
+.orange-btn:hover {
+    color: #f88440;
+    background-color: #fff;
+}
+.orange-btn:hover,
+.orange-btn:focus,
+.orange-btn:active {
+    cursor: pointer;
+}
+.cst-table tr td {
+    font-weight: 600;
+    padding: .5rem .75rem;
+}
+.cst-table tr:hover {
+    background-color: #ebf1fe;
+}
+.cst-pagination .pagination {
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cst-pagination .pagination .page-item.active a {
+    font-weight: 700;
+    color: #000;
+}
+.cst-pagination .pagination .page-item a {
+    color: #3b75fa;
+    background: transparent !important;
+}
